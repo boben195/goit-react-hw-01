@@ -1,0 +1,17 @@
+.container {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 80px;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}

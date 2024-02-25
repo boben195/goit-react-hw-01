@@ -1,0 +1,54 @@
+.container {
+    width: 480px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 10px
+}
+.image {
+    background-color: black;
+    border-radius: 50%;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.tag {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.location {
+    color: gray;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 480px;
+    background-color: rgb(170, 167, 167);
+    border-top: 2px solid gray;
+    margin: 0;
+    border-radius: 2px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-right: 2px solid gray;
+    width: 100%;
+}
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: black;
+}
+.numbers {
+    font-size: 30px;
+    font-weight: bold;
+}
