@@ -1,4 +1,4 @@
-import style from "./TransactionHistory.module.css";
+import style from "../Transaction/TransactionHistory.module.css";
 
 const TransactionHistory = ({ items }) => {
   return (
@@ -18,11 +18,6 @@ const TransactionHistory = ({ items }) => {
             <td>{item.amount}</td>
             <td>{item.currency}</td>
           </tr>
-          {/* <tr>
-            <td>{item.type}</td>
-            <td>{item.amount}</td>
-            <td>{item.currency}</td>
-          </tr> */}
         </tbody>
       ))}
     </table>
